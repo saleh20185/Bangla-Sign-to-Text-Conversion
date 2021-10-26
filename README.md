@@ -1,8 +1,8 @@
 # Bangla Sign to Text Conversion
 
-In this work, Bangla Sign language to on screen text conversion is done using Convolutional Neural Network(CNN). Due to the unavailability of dataset, 5 Bangla signs are considered and 100 images for each class are taken. Then image data are augmented for feeding this into CNN. A research paper based on this work can be found here: https://ieeexplore.ieee.org/abstract/document/8726895
+In this work, Bangla Sign language to on screen text conversion is done using Convolutional Neural Network(CNN). Due to the unavailability of bangla sign language dataset, 5 Bangla signs are considered and 100 images for each class are taken. Then image data are augmented for feeding into CNN. A research paper based on this work is published which can be found here: https://ieeexplore.ieee.org/abstract/document/8726895
 
-For the conversion process one should run the files follwing the below sequence:
+For Bangla sign to text conversion one should run files according to following sequence:
 
 1. At first 100 images from each five class are extracted from their directory and added labeled into a .csv files according to their respective classes. Run extractor.py for this operation. 
 
